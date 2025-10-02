@@ -17,7 +17,7 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 header img {
-    height: 120px; /* Mengatur tinggi logo menjadi 120 piksel */
+    height: 200px; /* Mengatur tinggi logo menjadi 200 piksel */
     width: auto;  /* Lebar akan disesuaikan secara otomatis */
 }
 .logo {
@@ -73,4 +73,5 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+
 }
