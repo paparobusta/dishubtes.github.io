@@ -17,8 +17,8 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 header img {
-    height: 200px; /* Mengatur tinggi logo menjadi 200 piksel */
-    width: auto;  /* Lebar akan disesuaikan secara otomatis */
+    height: 200px;
+    width: auto;
 }
 .logo {
     font-size: 50px;
@@ -64,7 +64,6 @@ header img {
     font-size: 30px;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
@@ -74,20 +73,18 @@ footer {
     bottom: 0;
     width: 100%;
 footer {
-    /* Ini penting agar posisi absolut gambar relatif terhadap footer */
     position: relative;
-    height: 100px; /* Contoh tinggi */
+    height: 100px;
 }
 
 .footer-logo {
     position: absolute;
-    bottom: 30px; /* Jarak 20px dari bawah footer */
-    right: 40px;  /* Jarak 30px dari kanan footer */
-    
-    /* Atur ukuran gambar */
+    bottom: 30px;
+    right: 40px;
     width: 400px;
     height: auto;
 }
+
 
 
 
