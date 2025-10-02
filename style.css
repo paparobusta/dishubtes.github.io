@@ -81,13 +81,14 @@ footer {
 
 .footer-logo {
     position: absolute;
-    bottom: 70px; /* Jarak 20px dari bawah footer */
+    bottom: 30px; /* Jarak 20px dari bawah footer */
     right: 40px;  /* Jarak 30px dari kanan footer */
     
     /* Atur ukuran gambar */
     width: 400px;
     height: auto;
 }
+
 
 
 
