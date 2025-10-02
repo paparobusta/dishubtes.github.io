@@ -82,12 +82,13 @@ footer {
 .footer-logo {
     position: absolute;
     bottom: 70px; /* Jarak 20px dari bawah footer */
-    right: 1000px;  /* Jarak 30px dari kanan footer */
+    right: 40px;  /* Jarak 30px dari kanan footer */
     
     /* Atur ukuran gambar */
-    width: 6000px;
+    width: 2000px;
     height: auto;
 }
+
 
 
 
