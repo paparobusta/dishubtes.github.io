@@ -79,11 +79,12 @@ footer {
 
 .footer-logo {
     position: absolute;
-    bottom: 30px;
-    right: 40px;
+    bottom: 15px;
+    right: 160px;
     width: 400px;
     height: auto;
 }
+
 
 
 
