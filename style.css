@@ -1,0 +1,76 @@
+/* Gaya Dasar */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header dan Navigasi */
+.header {
+    background-color: #2a5be0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header img {
+    height: 120px; /* Mengatur tinggi logo menjadi 120 piksel */
+    width: auto;  /* Lebar akan disesuaikan secara otomatis */
+}
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #050000;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #4a90e2;
+}
+
+/* Banner */
+.banner {
+    background-color: #4a90e2;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 20px;
+    margin-bottom: 20px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 30px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #201f1f;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
