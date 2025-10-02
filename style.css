@@ -74,9 +74,20 @@ footer {
     bottom: 0;
     width: 100%;
 }
-footer img {
-    height: 70px; /* Mengatur tinggi logo menjadi 70 piksel */
-    width: auto;  /* Lebar akan disesuaikan secara otomatis */
+footer {
+    /* Ini penting agar posisi absolut gambar relatif terhadap footer */
+    position: relative;
+    height: 300px; /* Contoh tinggi */
+}
+
+.footer-logo {
+    position: absolute;
+    bottom: 20px; /* Jarak 20px dari bawah footer */
+    right: 30px;  /* Jarak 30px dari kanan footer */
+    
+    /* Atur ukuran gambar */
+    width: 100px;
+    height: auto;
 }
 
 
