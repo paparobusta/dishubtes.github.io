@@ -76,7 +76,7 @@ footer {
 footer {
     /* Ini penting agar posisi absolut gambar relatif terhadap footer */
     position: relative;
-    height: 300px; /* Contoh tinggi */
+    height: 100px; /* Contoh tinggi */
 }
 
 .footer-logo {
@@ -88,6 +88,7 @@ footer {
     width: 100px;
     height: auto;
 }
+
 
 
 
